@@ -8,11 +8,7 @@ require(ROOT.'libary/UpTool.class.php');
 
 $uptool = new UpTool();
 
-if($uptool->up('pic')){
-	echo '上传成功了<br/>';
-}else{
-	echo $uptool->getErr();
-}
+
 
 
 
