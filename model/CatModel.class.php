@@ -60,6 +60,8 @@ class CatModel extends Model{
 		$this->db->autoExecute($this->table,$data,'update',' where cat_id = '.$cat_id);
 		return $this->db->affected_rows();
 	}
+
+	
 }
 
 
